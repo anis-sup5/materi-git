@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Materi GIT | Branch</title>
+</head>
+<body>
+    <div class="container p-5 my-5 bg-dark text-white">
+        <h1>Rangkuman Materi Git Branch</h1>
+        <div class="row">
+            <div class="col-12">
+                <h2>
+                    Pengertian Branch
+                </h2>
+                <p>
+                    <b>Branch</b> merupakan cabang dari repository untuk memanage pengembangan dalam GIT.
+                </p>
+            </div>
+        <div class="row">
+            <div class="col-12">
+                <h2>
+                    Perintah Branch
+                </h2>
+                <ol>
+                    <li>
+                        Git branch: melihat semua branch (local)
+                    </li>
+                    <li>
+                        Git branch --all: melihat semua branch (public)
+                    </li>
+                    <li>
+                        Git branch nama_branch: membuat branch baru
+                    </li>
+                    <li>
+                        Git checkout nama_branch: untuk berpindah branch
+                    </li>
+                    <li>
+                        Git branch -d nama_branch: untuk menghapus branch
+                    </li>
+                    <li>
+                        Git merge nama_branch
+                        <ul>
+                            <li>
+                                untuk menggabungkan commit dari 2 branch
+                            </li>
+                            <li>
+                                Relatif terhadap branch yang aktif saat ini
+                            </li>
+                            <li>
+                                Untuk melakukan merge harus dipastikan tidak ada file yang belum di commit
+
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        Conflict
+                        <ul>
+                            <li>
+                                Kondisi yang terjadi ketika merging 2 branch yang memiliki perubahan pada file yang sama
+                            </li>
+                            <li>
+                                Ketika conflict, kita tidak bisa melakukan commit
+                            </li>
+                            <li>
+                                Untuk melakukan commit, conflict harus diselesaikan dulu
+                            </li>
+                        </ul>
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
